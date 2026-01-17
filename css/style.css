@@ -1377,6 +1377,16 @@ padding: 0;: This removes all internal spacing within the element.*/
   /* Visual cue for focus */
 }
 
+@media screen and (max-width: 768px) {
+  .highlight-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 .highlight-item p span {
   color      : #00d4ff;
   /* Highlighting your tools/datasets */
